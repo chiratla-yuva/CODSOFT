@@ -50,7 +50,7 @@ public class NumberGame
     		System.out.print("Do you want to play again? (yes/no): ");
 		    String response = sc.next();
     		// If the user types "no", end the game
-    		if(response.equalsIgnoreCase("Yes")){
+    		if(response.equalsIgnoreCase("no")){
     		    playAgain = false;
     		    System.out.println("\nThanks for playing! Goodbye!");
     		}
